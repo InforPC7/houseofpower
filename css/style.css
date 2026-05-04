@@ -2070,17 +2070,31 @@ label {
 .forma_oferta {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
 }
 
 .box_oferta {
-  background: #bab3b320;
+  background: #a8010120;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+
 }
+
+.box_oferta:hover {
+  background: #a80101;
+  color: #fff;
+  transition: 0.3s;
+  opacity: 50%;
+}
+
+.multicaixa {}
 
 /*2 coluna do bloco de ofertas*/
 .Montante {
-  margin-bottom: 0px;
+  margin-bottom: 0px
 }
 
 .confir_oferta {
