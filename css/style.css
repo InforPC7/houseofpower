@@ -341,16 +341,16 @@ ul.list-check li:before {
 }
 
 /* Bootstrap */
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:focus,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li > a:hover,
-.nav-tabs > li > a {
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:hover,
+.nav-tabs>li>a {
   border: 0;
 }
 
-.nav > li > a:focus,
-.nav > li > a:hover {
+.nav>li>a:focus,
+.nav>li>a:hover {
   background: none;
 }
 
@@ -364,9 +364,11 @@ a[href^=tel] {
 }
 
 /* Button */
-.btn:active, .btn:focus {
+.btn:active,
+.btn:focus {
   box-shadow: none !important;
 }
+
 a[href^=tel] {
   color: inherit;
   text-decoration: none;
@@ -1420,7 +1422,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
   font-size: 18px;
   margin-top: 0;
   margin-bottom: 5px;
-  color:rgb(255, 123, 0);
+  color: rgb(255, 123, 0);
   font-size: 24px;
 }
 
@@ -1641,23 +1643,27 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 .main-container .border-left {
   margin-bottom: 30px;
 }
-.main-container h1{
+
+.main-container h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 @media (max-width: 768px) {
-  .main-container h1{
+  .main-container h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
 }
-.main-container h1{
+
+.main-container h1 {
   color: rgb(255, 123, 0);
 }
+
 /*-- Banner --*/
 .banner-area {
   position: relative;
@@ -1678,13 +1684,14 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
   font-size: 28px;
   font-weight: normal;
 }
+
 @media (max-width: 768px) {
-.banner-area h1{
-  width: 100%;
-  text-align: center;
-  font-size: 30px;
-  
-}
+  .banner-area h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+
+  }
 }
 
 .banner-title {
@@ -1976,6 +1983,7 @@ label {
   background: #111;
   color: #fff;
 }
+
 .page-slider .carousel-control {
   position: absolute;
   top: 50%;
@@ -1989,12 +1997,15 @@ label {
   outline: 0;
   border: 0;
 }
+
 .page-slider .carousel-control.left {
   left: 0;
 }
+
 .page-slider .carousel-control.right {
   right: 0;
 }
+
 .page-slider .carousel-control i {
   background: rgba(0, 0, 0, 0.3);
   color: #fff;
@@ -2005,6 +2016,7 @@ label {
   border-radius: 0;
   transition: all 500ms ease;
 }
+
 .page-slider .carousel-control i:hover {
   background: #ffb600;
   color: #fff;
@@ -2032,7 +2044,7 @@ label {
 
 
 /*===========ofertas================*/
-.area_oferta{
+.area_oferta {
   height: 250px;
   margin: 0%;
   background-image: url(../images/banner/page-title.jpg);
@@ -2041,30 +2053,42 @@ label {
   background-size: cover;
   background-clip: initial;
 }
-.area_oferta h1{
- color: #fff;
- font-size: larger;
+
+.area_oferta h1 {
+  color: #fff;
+  font-size: larger;
 }
-.checkout-panel{
+
+.checkout-panel {
   margin: 60px;
 }
 
-.bloock_oferta{
+.bloock_oferta {
   margin: 10px;
 }
-.forma_oferta{
+
+.forma_oferta {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
 }
-.box_oferta{
+
+.box_oferta {
   background: #bab3b320;
 }
+
 /*2 coluna do bloco de ofertas*/
-.Montante{
+.Montante {
   margin-bottom: 0px;
 }
-.confir_oferta{
+
+.confir_oferta {
   margin: 15px;
+}
+
+/*===========Calendario================*/
+.nossoscard {
+  height: 100px;
+
 }
